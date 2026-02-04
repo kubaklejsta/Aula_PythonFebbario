@@ -38,3 +38,21 @@ while conteggio < 5:
 
 print("Hai inserito 5 numeri primi:", numeri_primi)
 
+# es 2 numeri pari 
+
+numeri_pari = []
+conteggio = 0
+
+while conteggio < 5:
+    numero = int(input("Inserisci un numero: "))
+
+    if numero % 2 == 0:
+        print("Il numero è pari")
+        numeri_pari.append(numero)
+        conteggio = conteggio + 1
+    else:
+        print("Il numero non è pari")
+
+print("Hai inserito 5 numeri pari:", numeri_pari)
+
+
