@@ -1,5 +1,6 @@
-import Mio_modulo
+import Mio_modulo as MM
 
-print(Mio_modulo.PI)
 
-print(Mio_modulo.Y)
+print(MM.PI)
+
+print(MM.Y)
