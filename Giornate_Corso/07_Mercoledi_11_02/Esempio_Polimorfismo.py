@@ -155,7 +155,7 @@ def main():
     ]
     fai_parlare_animali(lista_animali)
     
-   # Sammy = Cane("Samantha")
+    Sammy = Cane("Samantha")
     fai_parlare_animali([Sammy])
 
     # Esempio 2: Operator overloading con Contatore
